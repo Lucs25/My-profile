@@ -2,7 +2,7 @@ import { HiDownload } from "react-icons/hi";
 
 export function Hero() {
   return (
-    <section className="bg-gradient-to-tr from-black to-gray-700 text-white">
+    <section className="gradient">
       <div className="container mx-auto max-w-4xl p-2 py-12">
         {/*Depois inserir flex */}
         <div className="basis-1/2">
@@ -45,8 +45,6 @@ export function Hero() {
             </a>
           </div>
         </div>
-
-        <div className="basis-1/2">DIV2</div>
       </div>
     </section>
   );

@@ -6,4 +6,10 @@
   .button {
     @apply cursor-pointer rounded-md bg-white px-4 py-2 font-headline text-sm font-semibold transition;
   }
+  .title {
+    @apply container mx-auto my-4 max-w-5xl p-4;
+  }
+  .gradient{
+    @apply bg-gradient-to-tr from-black to-gray-700 text-white
+  }
 }
