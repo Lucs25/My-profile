@@ -1,4 +1,5 @@
 import { HiDownload } from "react-icons/hi";
+import CV from "../assets/Lucas_TI1.pdf";
 
 export function Hero() {
   return (
@@ -37,7 +38,8 @@ export function Hero() {
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
-              href="#"
+              href={CV}
+              download
               className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
               <HiDownload />

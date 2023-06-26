@@ -1,3 +1,5 @@
+import Profile from "../assets/Profile.png";
+
 export function About() {
   return (
     <section className="title">
@@ -89,7 +91,7 @@ export function About() {
             </table>
           </div>
           <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-cover bg-center md:-left-12 md:-12top md:h-72 md:w-56">
-            MINHA FOTO 1;37
+            <img src={Profile} alt="Foto de perfil" className="rounded-lg" />
           </div>
         </div>
       </div>

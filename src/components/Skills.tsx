@@ -1,4 +1,8 @@
 import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2";
+import Htmlsvg from "../assets/html.svg";
+import JSsvg from "../assets/javascript.svg";
+import Nodesvg from "../assets/nodejs.svg";
+import Reactsvg from "../assets/react.svg";
 
 export function Skills() {
   const educations = [
@@ -13,23 +17,23 @@ export function Skills() {
   const skills = [
     {
       name: "HTML5/CSS3",
-      icon: "images/html.svg",
+      icon: Htmlsvg,
       level: 95,
     },
     {
       name: "JavaScript",
-      icon: "../assets/javascript.svg",
+      icon: JSsvg,
       level: 90,
     },
     {
       name: "React.js",
-      icon: "../assets/react.svg",
+      icon: Reactsvg,
       level: 85,
     },
     {
       name: "Node.js",
-      icon: "../assets/nodejs.svg",
-      level: 65,
+      icon: Nodesvg,
+      level: 35,
     },
   ];
 
